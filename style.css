@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(251,249,248);
+  font-family: verdana;
+  font-size: p{25px;}
+}
+
+.card-orange{
+
+    background: white;
+    padding: 60px;
+    margin: 40px auto;
+    box-shadow: 0px 8px 10px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    text-align: center; 
+    width: 700px
+}
+
+.
+
+h1{
+	font-family: courier;
+   font-size: 50px;
+   letter-spacing: 8px
+  }
+
+ h1{
+ 	text-align: center;
+ }
+
+ h2{
+ 	text-align: center;
+ }
+
+.img-circle {
+	border-radius: 50%
+
+}
+
+.btn-orange {
+	background-color: #F5C4A7;
+    color:white;
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+
+.btn-orange:hover {
+	background-color: red
+}
+p{
+	text-align: center;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+		
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+
+.list-inline i {
+	font-size: 35px;
+	color: #043FAF ;
+
+}
+
+.list-inline i:hover {
+color: red;
+}
+
+#sisi p {
+   margin-bottom: 55px;
+}
+
+#aller i {
+	margin-bottom: 40px;
+}
+
+@media (max-width: 500px) { 
+
+    .container {
+    	background: white;
+        width: 400px;
+
+    }
+
+ }
+
+
+ @media (max-width: 760px) {
+
+     .container {
+     	background: white;
+     	width: 600px
+
+     }
+
+
+ }
